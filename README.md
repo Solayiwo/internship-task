@@ -131,4 +131,4 @@ This project is available under the **MIT License**.
 
 ---
 
-Built with ❤️ by Solayiwo-
+Built with ❤️ by Solayiwo
