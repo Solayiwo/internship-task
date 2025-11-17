@@ -98,6 +98,20 @@ npm run start:api
 
 ---
 
+### Example Data for db.json
+
+To credit an account after signup/signin, you can use the following transaction object:
+
+{
+  "id": 1,
+  "title": "Received from David",
+  "amount": 90000000,
+  "type": "credit",
+  "date": "2025-11-16"
+}
+
+---
+
 ## Folder Structure  
 ```
 internship-task/
