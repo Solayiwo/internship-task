@@ -13,7 +13,7 @@ function DashboardHome() {
   const [successMessage, setSuccessMessage] = useState("");
   const [showReceive, setShowReceive] = useState(false);
 
-   // Function to compute balance from transactions
+   // Function to cal. balance from transactions
   const computeBalance = (transactions) => {
     return transactions.reduce((sum, tx) => {
       return tx.type === "credit" ? sum + tx.amount : sum - tx.amount;
