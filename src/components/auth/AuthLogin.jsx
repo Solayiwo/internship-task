@@ -4,7 +4,6 @@ import InputField from "./InputField";
 import { MailIcon, LockIcon } from "../icons/Icons";
 import { validateLoginField } from "../../utils/validators";
 import { apiFetch } from "../../utils/apiClient";
-// import { Auth } from "@/pages";
 
 function AuthLogin() {
   const navigate = useNavigate();
