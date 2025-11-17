@@ -1,16 +1,134 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Internship Task  
+**Repository:** [Solayiwo/internship-task](https://github.com/Solayiwo/internship-task)  
+**Project Name:** Pre-Task (React + Vite)  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About the Project  
+This repository contains an **internship pre-task** built using **React** and **Vite**, showcasing a modern front-end workflow, clean structure, mock API setup(using jsonserver).  
+It provides a solid foundation for building user interfaces, API interactions, and feature-rich applications.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Demo  
+Visit the live app here:  
+👉 **https://internship-task-lovat.vercel.app/**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features  
+- ⚡ Fast dev environment using Vite  
+- 🧩 Clean component-based structure  
+- 📦 JSON Server mock backend included  
+- 🛠️ ESLint setup for code quality  
+- 🚀 Ready for deployment (Vercel config included)  
+- 📁 Sample `db.json` and `components.json`  
+- 🎨 Supports custom styling  
+
+---
+
+## Tech Stack  
+- **React (Vite)**
+- **TailwindCSS**
+- **JSON Server** (Mock API)
+- **npm**
+
+---
+
+## Getting Started  
+
+### Prerequisites  
+Ensure you have the following installed:  
+- **Node.js** (LTS recommended)  
+- **npm**
+
+---
+
+### Installation  
+Clone the project and install dependencies:
+
+```bash
+git clone https://github.com/Solayiwo/internship-task.git
+cd internship-task
+npm install
+```
+
+---
+
+## Running the Frontend  
+Start the React development server:
+
+```bash
+npm run dev
+```
+
+This launches the app locally (e.g., `http://localhost:5173`).
+
+---
+
+## Starting JSON Server (Mock API)
+
+This project includes a local mock backend via **JSON Server** reading from `db.json`.
+
+Start it with:
+
+```bash
+npm run start:api
+```
+
+This serves the API at:
+
+```
+http://localhost:4000
+```
+---
+
+### 🔧 Recommended Development Workflow
+
+Run **both** servers in separate terminals:
+
+```bash
+# Terminal 1 - frontend
+npm run dev
+
+# Terminal 2 - mock backend
+npm run start:api
+```
+
+---
+
+## Folder Structure  
+```
+internship-task/
+├─ public/
+├─ src/
+│   ├─ assets/
+│   ├─ components/
+│   ├─ App.jsx
+│   └─ main.jsx
+├─ db.json
+├─ index.html
+├─ components.json
+├─ package.json
+├─ eslint.config.js
+├─ vite.config.js
+├─ vercel.json
+└─ README.md
+```
+
+---
+
+## License  
+This project is available under the **MIT License**.
+
+---
+
+## Contact  
+**Author:** Solayiwo  
+**GitHub:** https://github.com/Solayiwo  
+**Project Link:** https://github.com/Solayiwo/internship-task  
+
+---
+
+Built with ❤️ by Solayiwo-
